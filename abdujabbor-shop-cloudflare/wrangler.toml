@@ -2,8 +2,6 @@ name = "abdujabbor-shop"
 pages_build_output_dir = "."
 compatibility_date = "2026-09-01"
 
-# Cloudflare Dashboard -> Workers & Pages -> your project -> Settings -> Bindings
-# Add a KV namespace binding named: STORE
-# Add secrets:
-#   ADMIN_PASSWORD = your strong admin password
-#   SESSION_SECRET = a long random secret
+[[kv_namespaces]]
+binding = "STORE"
+id = "1a6e85c7331c41dd83c74e2df99c0233"
