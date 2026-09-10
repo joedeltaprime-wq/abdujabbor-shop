@@ -1,0 +1,1 @@
+export function Brand(){return <a href="/" className="brand" aria-label="Abdujabbor Shop"><img className="shop-logo" src="/logo.png" alt="" width={62} height={62}/><span className="brand-wordmark">Abdujabbor <small>Shop</small></span></a>}
